@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon>P4Sweep.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\P4SweepCore\P4SweepCore.csproj" />
+    <ProjectReference Include="..\P4SweepGUI\P4SweepGUI.csproj" />
+    <ProjectReference Include="..\P4SweepWPFGUI\P4SweepWPFGUI.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="P4SweepWPFGUI.FileView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:P4SweepWPFGUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <DockPanel>
+        <StatusBar DockPanel.Dock="Bottom">
+            <Label x:Name="StatusBarStatusLabel" Content="Ready."/>
+        </StatusBar>
+        <ToolBarTray DockPanel.Dock="Top">
+            <ToolBar HorizontalAlignment="Left" VerticalAlignment="Top">
+                <Label x:Name="DescriptionToolBarLabel" Content="File View"/>
+            </ToolBar>
+        </ToolBarTray>
+        <DataGrid x:Name="FileDataGrid" ScrollViewer.CanContentScroll="True" MouseDoubleClick="FileDataGrid_MouseDoubleClick">
+        </DataGrid>
+    </DockPanel>
+</UserControl>

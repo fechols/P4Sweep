@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "P4Sweep": {
+      "commandName": "Project",
+      "commandLineArgs": "-wpf"
+    }
+  }
+}
